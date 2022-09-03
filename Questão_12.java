@@ -10,7 +10,7 @@ public class Questão_12 {
 		do {
 			System.out.println("Escolha o item que quer verificar: (letras de a-e minúsculas)");
 			R = entrada.next().charAt(0);
-		} while (R != 'a' && R != 'b' && R != 'c' && R != 'd' && R != 'f');
+		} while (R != 'a' && R != 'b' && R != 'c' && R != 'd' && R != 'e');
 		System.out.println("Informe o número de colunas e linhas: ");
 		int colinha = entrada.nextInt();
 		switch (R) {
